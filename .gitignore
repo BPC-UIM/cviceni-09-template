@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Cviceni 09: vlastni blok ---
+# Vystupni grafy (graphs/) a ulozene modely (models/, Neuron.save -> .npz) se
+# generuji za behu a do repozitare se nekomituji; prazdne adresare drzi .gitkeep.
+graphs/*.png
+!graphs/.gitkeep
+models/*.npz
+!models/.gitkeep
+!data/.gitkeep
+
+.vscode/

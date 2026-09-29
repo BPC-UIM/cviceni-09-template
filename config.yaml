@@ -1,0 +1,10 @@
+data:
+  n_samples: 400            # pocet nahodnych bodu v jednotkovem ctverci (faze trojuhelnik, motylek)
+  seed: 42                  # seed generatoru -- reprodukovatelne rozlozeni bodu
+
+sigmoid:
+  temperature: 0.08         # teplota sigmoidy ve vsech vrstvach; male cislo -> blizko Step,
+                            # ale skryty prostor zustane spojity (body se neslijou do rohu)
+
+triangle:
+  vertices: [[0.5, 0.2], [0.1, 0.6], [0.9, 0.6]]   # vrcholy trojuhelniku (x1, x2) -- faze trojuhelnik
